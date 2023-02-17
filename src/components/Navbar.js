@@ -30,10 +30,10 @@ export default function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        TRVL <img src='./logomain.png' className='fab fa-typo3' />
+                        TRVL <img src='./logomain.png' className='fab fa-typo3' alt=''/>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
-                        {click ? <img src='./exit.png' className='fas fa-bars' /> : <img src='./menu.png' className='fas fa-times' />}
+                        {click ? <img src='./exit.png' className='fas fa-bars' alt=''/> : <img src='./menu.png' className='fas fa-times' alt=''/>}
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
